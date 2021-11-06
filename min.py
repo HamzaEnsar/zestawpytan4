@@ -1,7 +1,7 @@
 minlist=[34,21,90,14]
-def min_max(array):
+def find_min(array):
     array.sort()
-    print("Küçük : ", array.pop(0), "büyük : ", array.pop(-1))
+    print("Minimum value is  : ", array.pop(0) )
 
 
-min_max(minlist)
+find_min(minlist)
