@@ -1,7 +1,6 @@
-print_list=[1,2,3,4,5]  
-def sıralama (array):    
+def print_list (array):    
     for i in range(0,len(array)):
         print(array[i])    
 
 
-sıralama(print_list)
+print_list([1,2,3,4,5])
