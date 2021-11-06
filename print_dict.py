@@ -1,6 +1,6 @@
-print_dict={'a':1,'b':2,'c':3}
-def sözlük (list):
-    for i in print_dict:
-        print(i,':',print_dict[i])
+dict={'a':1,'b':2,'c':3}
+def print_dict (list):
+    for i in dict:
+        print(i,':',dict[i])
 
-sözlük(print_dict)
+print_dict(dict)
